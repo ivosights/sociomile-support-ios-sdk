@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SociomileSupportSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.1'
   s.summary          = 'SociomileSupportSDK is Sociomile IOS SDK for mobile ios'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'The Sociomile SDK is a conversational experience that provide customer support such as messaging to your platforms.'
 
-  s.homepage         = 'https://github.com/ivosights/sociomile-ios-sdk'
+  s.homepage         = 'https://github.com/ivosights/sociomile-support-ios-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ivosights' => 'meynisa.nur@ivosights.com' }
-  s.source           = { :git => 'https://github.com/ivosights/sociomile-ios-sdk.git', :tag => '0.0.2' }
+  s.source           = { :git => 'https://github.com/ivosights/sociomile-support-ios-sdk.git', :tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
