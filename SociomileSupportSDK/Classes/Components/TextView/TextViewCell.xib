@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="GWn-mi-Fgk" customClass="TextViewCell" customModule="scm_sdk_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="509" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8Xv-XV-ONG">
+                <rect key="frame" x="0.0" y="0.0" width="509" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GQ8-mh-BaL">
+                        <rect key="frame" x="4" y="4" width="501" height="185"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quy-n5-kEz">
+                                <rect key="frame" x="-4" y="6" width="509" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="dlJ-za-XBV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhE-Gj-nOC">
+                                <rect key="frame" x="8" y="81" width="485" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="arc-NC-B99"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuj-kR-kV4">
+                                <rect key="frame" x="8" y="81" width="485" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Bp-qg-tfS"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iq5-NR-h9D">
+                                <rect key="frame" x="8" y="39" width="485" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaS-ra-vfq">
+                        <rect key="frame" x="5" y="194" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GQ8-mh-BaL" firstAttribute="top" secondItem="8Xv-XV-ONG" secondAttribute="top" constant="4" id="9sM-6j-8YV"/>
+                    <constraint firstItem="GQ8-mh-BaL" firstAttribute="leading" secondItem="8Xv-XV-ONG" secondAttribute="leading" constant="4" id="Swe-87-9Mp"/>
+                    <constraint firstAttribute="trailing" secondItem="GQ8-mh-BaL" secondAttribute="trailing" constant="4" id="g2N-s4-uL2"/>
+                    <constraint firstItem="PaS-ra-vfq" firstAttribute="top" secondItem="GQ8-mh-BaL" secondAttribute="bottom" constant="5" id="l4e-RO-5xa"/>
+                    <constraint firstAttribute="bottom" secondItem="PaS-ra-vfq" secondAttribute="bottom" constant="5" id="nMv-Bp-yNj"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="509" height="220"/>
+            <connections>
+                <outlet property="content" destination="8Xv-XV-ONG" id="PA7-eJ-gK4"/>
+                <outlet property="contentLabel" destination="iq5-NR-h9D" id="csp-xG-Lkk"/>
+                <outlet property="fileBtn" destination="uuj-kR-kV4" id="bNY-Yj-2Ob"/>
+                <outlet property="imgView" destination="quy-n5-kEz" id="oMT-7L-qQk"/>
+                <outlet property="videoBtn" destination="lhE-Gj-nOC" id="K42-Np-hOU"/>
+            </connections>
+            <point key="canvasLocation" x="402.29007633587787" y="8.4507042253521139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
