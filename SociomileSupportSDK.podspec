@@ -35,19 +35,19 @@ Pod::Spec.new do |s|
      'SociomileSupportSDK' => ['SociomileSupportSDK/Assets/*']
    }
    
-   s.default_subspecs = 'Release'
-   
-   s.subspec 'Debug' do |debug|
-      debug.source_files = 'SociomileSupportSDK/Classes/**/*.{swift, h, m}', 'SociomileSupportSDK/Information.swift'
-      debug.resources = 'SociomileSupportSDK/Assets/**/*.{json, xml, storyboard, xib}', 'SociomileSupportSDK/Information.swift'
-      debug.test_spec 'Tests' do |test_spec|
-        test_spec.source_files = 'SociomileSupportSDK/Tests/**/*.{swift, h, m}', 'SociomileSupportSDK/Information.swift'
-      end
-   end
-   
-   s.subspec 'Release' do |release|
-      release.vendored_frameworks = 'Framework/SociomileSupportSDK.framework'
-   end
+#   s.default_subspecs = 'Release'
+#   
+#   s.subspec 'Debug' do |debug|
+#      debug.source_files = 'SociomileSupportSDK/Classes/**/*.{swift, h, m}', 'SociomileSupportSDK/Information.swift'
+#      debug.resources = 'SociomileSupportSDK/Assets/**/*.{json, xml, storyboard, xib}', 'SociomileSupportSDK/Information.swift'
+#      debug.test_spec 'Tests' do |test_spec|
+#        test_spec.source_files = 'SociomileSupportSDK/Tests/**/*.{swift, h, m}', 'SociomileSupportSDK/Information.swift'
+#      end
+#   end
+#   
+#   s.subspec 'Release' do |release|
+#      release.vendored_frameworks = 'Framework/SociomileSupportSDK.framework'
+#   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
