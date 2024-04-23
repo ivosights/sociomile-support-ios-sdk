@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBg0Zm9f-5j5YDEhUrWQ9WpYVx3g3_DrDc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>724008431938</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.cocoapods.demo.SociomileSupportSDK-Example</string>
+	<key>PROJECT_ID</key>
+	<string>sociomile-sdk</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sociomile-sdk.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:724008431938:ios:6d3a8a15d42cfa09e7d8db</string>
+</dict>
+</plist>
