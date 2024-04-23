@@ -16,7 +16,7 @@ BUILD_DIR=$1
 SCHEME=$2
 CONFIGURATION=$3
 WORKSPACE=$1/SociomileSupportSDK.xcworkspace
-FRAMEWORK_PATH=/Users/aprikot/Projects/SCM-SDK/sociomile-ios-sdk/SociomileSupportSDK/Framework
+FRAMEWORK_PATH=/Users/aprikot/Projects/SCM-SDK/sociomile-support-ios-sdk/Framework
 FRAMEWORK_NAME=$2.framework
 DERIVED_DATA_PATH=$BUILD_DIR/DerivedData
 IPHONEOS="generic/platform=iOS"
