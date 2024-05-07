@@ -66,7 +66,7 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
-  - SociomileSupportSDK/Debug (0.0.1):
+  - SociomileSupportSDK (0.0.1):
     - Alamofire
     - AlamofireImage (~> 4.3)
     - ImageSlideshow (~> 1.9.0)
@@ -81,7 +81,7 @@ DEPENDENCIES:
   - ImageSlideshow (~> 1.9.0)
   - RxCocoa (= 6.5.0)
   - RxSwift (= 6.5.0)
-  - SociomileSupportSDK/Debug (from `../`)
+  - SociomileSupportSDK (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -119,8 +119,8 @@ SPEC CHECKSUMS:
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  SociomileSupportSDK: 86f6e6c09ecbfc336849e196ec07187df892b9e0
+  SociomileSupportSDK: f14a33e5920270661c12b725995f44c23d46e127
 
-PODFILE CHECKSUM: 5dfda4a27aeeb0a0143e42bf8501ff4459cbf3e1
+PODFILE CHECKSUM: 6c5f5d1d6902b9a54c243e96b2a4e4089b4a5156
 
 COCOAPODS: 1.15.2

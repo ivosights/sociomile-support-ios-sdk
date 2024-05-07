@@ -16,7 +16,6 @@
 		9D0907206F70522976F4B362 /* Pods_SociomileSupportSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DB4C76E8DBF28FB9A30020 /* Pods_SociomileSupportSDK_Tests.framework */; };
 		CE26ACFF2BD754F900E33D86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE26ACFE2BD754F900E33D86 /* GoogleService-Info.plist */; };
 		CE3B32692BD640F9005F3F8E /* img_ripple.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE3B32682BD640F9005F3F8E /* img_ripple.gif */; };
-		CEF3528F2BD27AFF00002CF1 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = CEF3528E2BD27AFF00002CF1 /* makefile */; };
 		E025F9E383E67A1871D41483 /* Pods_SociomileSupportSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D4D1A95E2F2AD8A3A3EEC1 /* Pods_SociomileSupportSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +50,6 @@
 		CE26ACFE2BD754F900E33D86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CE3B325D2BD61117005F3F8E /* SociomileSupportSDK_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SociomileSupportSDK_Example.entitlements; sourceTree = "<group>"; };
 		CE3B32682BD640F9005F3F8E /* img_ripple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = img_ripple.gif; path = ../SociomileSupportSDK/Assets/img_ripple.gif; sourceTree = "<group>"; };
-		CEF3528E2BD27AFF00002CF1 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
-		CEF352902BD27B3E00002CF1 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		D2513A1A7C8C97766C292C59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9D4D1A95E2F2AD8A3A3EEC1 /* Pods_SociomileSupportSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociomileSupportSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,7 +99,6 @@
 			children = (
 				CE3B32682BD640F9005F3F8E /* img_ripple.gif */,
 				CE3B325D2BD61117005F3F8E /* SociomileSupportSDK_Example.entitlements */,
-				CEF3528D2BD27ADB00002CF1 /* Framework */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SociomileSupportSDK */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -169,16 +165,6 @@
 				D2513A1A7C8C97766C292C59 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		CEF3528D2BD27ADB00002CF1 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				CEF3528E2BD27AFF00002CF1 /* makefile */,
-				CEF352902BD27B3E00002CF1 /* build.sh */,
-			);
-			name = Framework;
-			path = ../Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,7 +371,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				CEF3528F2BD27AFF00002CF1 /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +464,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
