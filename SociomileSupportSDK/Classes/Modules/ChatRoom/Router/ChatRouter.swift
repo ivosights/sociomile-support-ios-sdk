@@ -10,8 +10,8 @@ import UIKit
 @available(iOS 12, *)
 public class ChatRouter: BaseCoordinator{
     
-    public init(window: UIWindow? = nil) {
-        super.init(window: window)
+    public init(_ navigationController: UINavigationController?) {
+        super.init(navigationController)
     }
     
     override func setup() -> UIViewController {
@@ -24,11 +24,7 @@ public class ChatRouter: BaseCoordinator{
     
     public override func start() {
         let viewController = self.setup()
-        
-        let navigationController = UINavigationController(rootViewController: viewController)
-        self.currentNavigationController = navigationController
-        
-        self.parentWindow?.rootViewController = navigationController
-        self.parentWindow?.makeKeyAndVisible()
+        self.parentNavigationController?.pushViewController(viewController, animated: true)
     }
+    
 }

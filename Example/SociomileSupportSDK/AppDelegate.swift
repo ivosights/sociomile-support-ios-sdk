@@ -22,6 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        SettingRouter(window: self.window).start()
+        
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
         

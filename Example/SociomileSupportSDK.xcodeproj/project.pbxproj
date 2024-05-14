@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ProfileViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9D0907206F70522976F4B362 /* Pods_SociomileSupportSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DB4C76E8DBF28FB9A30020 /* Pods_SociomileSupportSDK_Tests.framework */; };
+		CE1675D92BF338AF005DD1BD /* SettingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1675D82BF338AF005DD1BD /* SettingRouter.swift */; };
+		CE1675DB2BF34F48005DD1BD /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1675DA2BF34F48005DD1BD /* SettingViewController.xib */; };
+		CE1675DD2BF352A7005DD1BD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1675DC2BF352A7005DD1BD /* SettingViewController.swift */; };
+		CE1675DF2BF3569C005DD1BD /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1675DE2BF3569C005DD1BD /* ProfileViewController.xib */; };
 		CE26ACFF2BD754F900E33D86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE26ACFE2BD754F900E33D86 /* GoogleService-Info.plist */; };
 		CE3B32692BD640F9005F3F8E /* img_ripple.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE3B32682BD640F9005F3F8E /* img_ripple.gif */; };
 		E025F9E383E67A1871D41483 /* Pods_SociomileSupportSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D4D1A95E2F2AD8A3A3EEC1 /* Pods_SociomileSupportSDK_Example.framework */; };
@@ -35,7 +39,7 @@
 		607FACD01AFB9204008FA782 /* SociomileSupportSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SociomileSupportSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		9D9905623DCDC741634CDC5B /* Pods-SociomileSupportSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileSupportSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-SociomileSupportSDK_Tests/Pods-SociomileSupportSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A28B397D836F69744E84A34A /* SociomileSupportSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SociomileSupportSDK.podspec; path = ../SociomileSupportSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5369D34C01476B3F00AF93A /* Pods-SociomileSupportSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileSupportSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-SociomileSupportSDK_Example/Pods-SociomileSupportSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE1675D82BF338AF005DD1BD /* SettingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRouter.swift; sourceTree = "<group>"; };
+		CE1675DA2BF34F48005DD1BD /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		CE1675DC2BF352A7005DD1BD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CE1675DE2BF3569C005DD1BD /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		CE26ACFE2BD754F900E33D86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CE3B325D2BD61117005F3F8E /* SociomileSupportSDK_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SociomileSupportSDK_Example.entitlements; sourceTree = "<group>"; };
 		CE3B32682BD640F9005F3F8E /* img_ripple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = img_ripple.gif; path = ../SociomileSupportSDK/Assets/img_ripple.gif; sourceTree = "<group>"; };
@@ -122,7 +130,11 @@
 			children = (
 				CE26ACFE2BD754F900E33D86 /* GoogleService-Info.plist */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* ProfileViewController.swift */,
+				CE1675DA2BF34F48005DD1BD /* SettingViewController.xib */,
+				CE1675DC2BF352A7005DD1BD /* SettingViewController.swift */,
+				CE1675DE2BF3569C005DD1BD /* ProfileViewController.xib */,
+				CE1675D82BF338AF005DD1BD /* SettingRouter.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -255,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3B32692BD640F9005F3F8E /* img_ripple.gif in Resources */,
+				CE1675DB2BF34F48005DD1BD /* SettingViewController.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				CE1675DF2BF3569C005DD1BD /* ProfileViewController.xib in Resources */,
 				CE26ACFF2BD754F900E33D86 /* GoogleService-Info.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -369,8 +383,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CE1675D92BF338AF005DD1BD /* SettingRouter.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ProfileViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CE1675DD2BF352A7005DD1BD /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
