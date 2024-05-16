@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>724008431938-tvl6p1ukfogl3d9l2mrrh48v61v41t6q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.724008431938-tvl6p1ukfogl3d9l2mrrh48v61v41t6q</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBg0Zm9f-5j5YDEhUrWQ9WpYVx3g3_DrDc</string>
 	<key>GCM_SENDER_ID</key>
@@ -9,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.cocoapods.demo.SociomileSupportSDK-Example</string>
+	<string>com.ivo.sociomile-sdk-ios</string>
 	<key>PROJECT_ID</key>
 	<string>sociomile-sdk</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:724008431938:ios:6d3a8a15d42cfa09e7d8db</string>
+	<string>1:724008431938:ios:bd80f80c404d0e50e7d8db</string>
 </dict>
 </plist>

@@ -22,7 +22,8 @@ extension ChatViewController{
                 print(data)
                 navigationController?.popViewController(animated: true)
             case .failure(let error):
-                handleError(error: error)
+                print(error)
+                navigationController?.popViewController(animated: true)
             }
         }).disposed(by: disposeBag)
     }

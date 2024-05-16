@@ -19,6 +19,7 @@ class SettingViewController: UIViewController{
     @IBOutlet weak var profileLabel: UILabel!
     @IBOutlet weak var helpButton: UIButton!
     @IBOutlet weak var qnaButton: UIButton!
+    @IBOutlet weak var liveChatButton: UIButton!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -51,5 +52,8 @@ class SettingViewController: UIViewController{
         ProfileRouter(self.navigationController).start()
     }
     
+    @IBAction func handleLiveChatButton(_ sender: UIButton) {
+        LiveChatRouter(self.navigationController).start()
+    }
     
 }

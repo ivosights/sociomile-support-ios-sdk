@@ -9,9 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingViewController" customModule="SociomileSupportSDK_Example" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingViewController" customModule="SociomileSDK_Sample" customModuleProvider="target">
             <connections>
                 <outlet property="helpButton" destination="TNK-nF-m7q" id="HXV-2E-etc"/>
+                <outlet property="liveChatButton" destination="PPB-93-BwV" id="bdR-ie-zox"/>
                 <outlet property="profileLabel" destination="OLu-Km-yBU" id="cDf-zZ-QKs"/>
                 <outlet property="qnaButton" destination="pK7-Rj-eGS" id="byc-1r-jNg"/>
                 <outlet property="view" destination="iN0-l3-epB" id="oUM-Sa-Zjm"/>
@@ -39,7 +40,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ri3-gz-f79">
-                            <rect key="frame" x="12" y="317" width="369" height="70"/>
+                            <rect key="frame" x="12" y="317" width="369" height="115"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-0M-BM6">
                                     <rect key="frame" x="0.0" y="0.0" width="369" height="25"/>
@@ -79,6 +80,27 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="25" id="hn1-WQ-vdS"/>
                                                 <constraint firstAttribute="width" constant="25" id="vnL-zl-K1a"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hhu-8B-FVg">
+                                    <rect key="frame" x="0.0" y="90" width="369" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPB-93-BwV">
+                                            <rect key="frame" x="0.0" y="0.0" width="334" height="25"/>
+                                            <color key="tintColor" systemColor="labelColor"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Live Chat"/>
+                                            <connections>
+                                                <action selector="handleLiveChatButton:" destination="-1" eventType="touchUpInside" id="HT2-1p-tlG"/>
+                                            </connections>
+                                        </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.forward.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="prJ-cb-AYY">
+                                            <rect key="frame" x="344" y="2.6666666666666643" width="25" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="25" id="4uz-76-oIK"/>
+                                                <constraint firstAttribute="height" constant="25" id="TfP-mP-14b"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>

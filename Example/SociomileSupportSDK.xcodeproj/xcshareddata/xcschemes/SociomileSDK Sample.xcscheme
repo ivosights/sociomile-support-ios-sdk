@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "SociomileSupportSDK_Example.app"
-               BlueprintName = "SociomileSupportSDK_Example"
+               BuildableName = "SociomileSDK Sample.app"
+               BlueprintName = "SociomileSDK Sample"
                ReferencedContainer = "container:SociomileSupportSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SociomileSupportSDK_Tests.xctest"
-               BlueprintName = "SociomileSupportSDK_Tests"
+               BuildableName = "SociomileSDK Sample_Tests.xctest"
+               BlueprintName = "SociomileSDK Sample_Tests"
                ReferencedContainer = "container:SociomileSupportSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SociomileSupportSDK_Example.app"
-            BlueprintName = "SociomileSupportSDK_Example"
+            BuildableName = "SociomileSDK Sample.app"
+            BlueprintName = "SociomileSDK Sample"
             ReferencedContainer = "container:SociomileSupportSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SociomileSupportSDK_Tests.xctest"
-               BlueprintName = "SociomileSupportSDK_Tests"
+               BuildableName = "SociomileSDK Sample_Tests.xctest"
+               BlueprintName = "SociomileSDK Sample_Tests"
                ReferencedContainer = "container:SociomileSupportSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SociomileSupportSDK_Example.app"
-            BlueprintName = "SociomileSupportSDK_Example"
+            BuildableName = "SociomileSDK Sample.app"
+            BlueprintName = "SociomileSDK Sample"
             ReferencedContainer = "container:SociomileSupportSDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SociomileSupportSDK_Example.app"
-            BlueprintName = "SociomileSupportSDK_Example"
+            BuildableName = "SociomileSDK Sample.app"
+            BlueprintName = "SociomileSDK Sample"
             ReferencedContainer = "container:SociomileSupportSDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
