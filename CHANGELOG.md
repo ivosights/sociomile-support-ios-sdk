@@ -1,6 +1,6 @@
 # Change log
 
-## [0.0.2](https://github.com/ivosights/sociomile-ios-sdk/releases/tag/0.0.2) (16/04/2024)
+## [0.0.2](https://github.com/ivosights/sociomile-ios-sdk/releases/tag/0.0.2) (14/04/2024)
 
 ## Fixing
 
